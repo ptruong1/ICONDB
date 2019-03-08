@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblVisitFacilitySchedule] (
+    [FacilityID]    INT          NOT NULL,
+    [UserName]      VARCHAR (25) NULL,
+    [InputDate]     DATETIME     NULL,
+    [ModifyDate]    DATETIME     NULL,
+    [LimitTime]     TINYINT      NULL,
+    [FromTime1]     VARCHAR (5)  NULL,
+    [ToTime1]       VARCHAR (5)  NULL,
+    [FromTime2]     VARCHAR (5)  NULL,
+    [ToTime2]       VARCHAR (5)  NULL,
+    [ScheduleDay]   TINYINT      NOT NULL,
+    [LocationID]    INT          NULL,
+    [InterApm]      INT          NULL,
+    [TimeBeforeApm] SMALLINT     NULL,
+    [FvisitType]    TINYINT      CONSTRAINT [DF_tblVisitFacilitySchedule_FvisitType] DEFAULT ((2)) NOT NULL,
+    [FromTime3]     VARCHAR (5)  NULL,
+    [ToTime3]       VARCHAR (5)  NULL,
+    [PriFromTime]   VARCHAR (5)  NULL,
+    [PriToTime]     VARCHAR (5)  NULL,
+    [PriLimitTime]  SMALLINT     NULL,
+    [FromTime4]     VARCHAR (5)  NULL,
+    [ToTime4]       VARCHAR (5)  NULL,
+    CONSTRAINT [PK_tblVisitFacilitySchedule] PRIMARY KEY CLUSTERED ([FacilityID] ASC, [ScheduleDay] ASC, [FvisitType] ASC)
+);
+

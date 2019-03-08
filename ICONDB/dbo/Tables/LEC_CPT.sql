@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[LEC_CPT] (
+    [ST]      NVARCHAR (2)   NOT NULL,
+    [TELCOID] NVARCHAR (4)   NOT NULL,
+    [CPNUM]   NVARCHAR (2)   NOT NULL,
+    [RLRNUM]  TINYINT        NOT NULL,
+    [CPDEF]   NVARCHAR (100) NULL
+);
+

@@ -1,0 +1,2 @@
+﻿CREATE USER [EdovoScope] WITHOUT LOGIN;
+

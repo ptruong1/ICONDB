@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblRatePlanOS] (
+    [RateID]            VARCHAR (7)    NOT NULL,
+    [Mileagecode]       INT            NOT NULL,
+    [DayCode]           TINYINT        NOT NULL,
+    [PointID]           VARCHAR (2)    NOT NULL,
+    [TYPE]              CHAR (1)       NOT NULL,
+    [Description]       NVARCHAR (20)  NULL,
+    [FirstMin]          DECIMAL (6, 4) NULL,
+    [AddlMin]           DECIMAL (6, 4) NULL,
+    [CollectCallFee]    DECIMAL (6, 4) NULL,
+    [CallingCardFee]    DECIMAL (6, 4) NULL,
+    [CreditCardFee]     DECIMAL (6, 4) NULL,
+    [ThirdPartyFee]     DECIMAL (6, 4) NULL,
+    [PerToPerFee]       DECIMAL (6, 4) NULL,
+    [ACPCollectCallFee] DECIMAL (6, 4) NULL,
+    [ACPCallingCardFee] DECIMAL (6, 4) NULL,
+    [ACPCreditCardFee]  DECIMAL (6, 4) NULL,
+    [MinDuration]       TINYINT        NULL,
+    [MinDurationIntl]   TINYINT        NULL,
+    [LastUpdate]        SMALLDATETIME  NULL,
+    [RecordId]          BIGINT         NOT NULL,
+    [UserName]          VARCHAR (20)   NULL,
+    [MinIncrement]      TINYINT        NULL
+);
+

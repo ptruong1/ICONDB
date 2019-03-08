@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[MaineNoRecord] (
+    [ATTORNEY]     NVARCHAR (255) NULL,
+    [ORGANIZATION] NVARCHAR (255) NULL,
+    [PHONE]        NVARCHAR (15)  NULL
+);
+

@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[LCATRANS] (
+    [LCAPLANS]   INT          NULL,
+    [CPNUM]      NVARCHAR (2) NULL,
+    [CPNUM_RES]  NVARCHAR (2) NULL,
+    [CPNUM_IBUS] NVARCHAR (2) NULL,
+    [CPNUM_IRES] NVARCHAR (2) NULL
+);
+

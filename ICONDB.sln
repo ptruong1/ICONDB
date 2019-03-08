@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ICONDB", "ICONDB\ICONDB.sqlproj", "{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF5D035-9E6A-42A1-9F2D-ADAA58DB44FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81CD9D35-C77F-4650-84D9-82B82441484D}
+	EndGlobalSection
+EndGlobal

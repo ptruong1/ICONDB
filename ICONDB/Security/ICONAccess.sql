@@ -1,0 +1,2 @@
+﻿CREATE USER [ICONAccess] FOR LOGIN [ICONAccess];
+

@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[tblPrepaidArchive] (
+    [PhoneNo]        VARCHAR (12)   NOT NULL,
+    [PaymentTypeID]  TINYINT        NULL,
+    [RelationshipID] TINYINT        NOT NULL,
+    [FirstName]      VARCHAR (25)   NULL,
+    [LastName]       VARCHAR (25)   NULL,
+    [MI]             CHAR (1)       NULL,
+    [Address]        VARCHAR (75)   NULL,
+    [City]           VARCHAR (20)   NULL,
+    [State]          CHAR (2)       NULL,
+    [ZipCode]        VARCHAR (10)   NULL,
+    [Country]        VARCHAR (20)   NULL,
+    [Balance]        NUMERIC (7, 2) NOT NULL,
+    [status]         TINYINT        NULL,
+    [inputDate]      SMALLDATETIME  NULL,
+    [ModifyDate]     SMALLDATETIME  NULL,
+    [UserName]       VARCHAR (20)   NULL,
+    [FacilityID]     INT            NOT NULL,
+    [InmateID]       VARCHAR (12)   NULL,
+    [note]           VARCHAR (50)   NULL,
+    [InmateName]     VARCHAR (50)   NULL,
+    [EndUserID]      INT            NULL,
+    [CountryCode]    VARCHAR (3)    NULL,
+    [CountryID]      SMALLINT       NOT NULL,
+    [StateID]        SMALLINT       NOT NULL,
+    [PhoneTypeID]    TINYINT        NULL
+);
+
